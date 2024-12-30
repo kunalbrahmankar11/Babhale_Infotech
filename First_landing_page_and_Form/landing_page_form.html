@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Form</title>
+    <link rel="stylesheet" href="landing_page_form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Student Details Form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="First & Last Name">
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+            
+            <label for="college">College:</label>
+            <select id="college" name="college">
+                <option value=""></option>
+                <option value="college1">GH Raisoni College of Engineering</option>
+                <option value="college2">Priyadarshini College of Engineering</option>
+                <option value="college3">Yeshwantrao Chavan College of Engineering</option>
+                <option value="college4">RTMNU</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree">
+            
+            <label for="cgpa">CGPA:</label>
+            <input type="number" step="1" id="cgpa" name="cgpa">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+            
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message">
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
